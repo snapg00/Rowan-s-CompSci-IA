@@ -1,0 +1,41 @@
+<!DOCTYPE html> <!--sets the document type to html-->
+<html> <!--begins the html element-->
+<head> <!--begins the head element-->
+
+<link rel="stylesheet" href="stylesHome.css"> <!--Changes webpage style to that of an external CSS file, named "stylesHome.css"-->
+
+<title>School Drama - Welcome!</title> <!--Sets the title that displays in the tab in the web browser-->
+
+<link rel="icon" type="image/x-icon" href="/images/favicon.png"> <!--Links a favicon image for the webpage, called favicon.png-->
+  
+  <script> // begins a javascript element within the html document, enabling functionality of the webpage
+    function bookingPage(){
+      window.location.href = 'bookingPage.html' // enables button to work, sending user to the booking page
+      }
+  </script>
+
+  <script>
+    function adminPage(){
+      window.location.href = 'adminPage.html'
+    }
+  </script>
+
+</head>
+
+<body> <!--begins body element-->
+
+<div class="textDiv"> <!--the textDiv sets the style for the h1 and h2 words. The textDiv is inside of the stylesHome.css file that was linked in line 5-->
+  <h1>Welcome to the School Drama website!</h1> <!--Sets text for h1-->
+  <h2>Book your tickets via the button below.</h2> <!--Sets text for h2-->
+</div> <!--the "div class=" sets up the textDiv from the .css file-->
+
+<div class="buttonDiv"> <!--same as textDiv, but buttonDiv, also in stylesHome.css-->
+  <button onclick="bookingPage()">Book Tickets Here!</button> <!--works with javascript element for button functionality-->
+</div> <!--same as line 22, but for buttonDiv-->
+
+<div class="buttonDiv">
+  <button onclick="adminPage()">Admin Page</button>
+</div>
+  
+</body> <!--ends body element-->
+</html> <!--ends the html element-->

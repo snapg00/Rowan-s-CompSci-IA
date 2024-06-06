@@ -1,0 +1,68 @@
+.textDiv {
+    border: 15px inset gold;
+    background-color: whitesmoke;
+    text-align: left;
+    h1 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	    font-size: 80px;
+        font-weight: 1000;
+	    color: navy;
+	    border: 6px outset lightgrey;
+	    background-color: white;
+	}
+	h2 {
+	    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	    font-size: 60px;
+        color: navy;
+        font-weight: 500;
+	    border: 5px outset lightgrey;
+	    background-color: white;
+	}
+    h3 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 40px;
+        color: navy;
+        font-weight: 250;
+        border: 4px outset lightgrey;
+        background-color: white;
+    }
+    h4 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 30px;
+        color: navy;
+        font-weight: 125;
+        border: 4px outset lightgrey;
+        background-color: white;
+    }
+    h5 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        color: navy;
+        font-weight: 125;
+        border: 4px outset lightgrey;
+        background-color: white;
+    }
+}
+.buttonDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border: 4px outset lightgrey;
+  }
+  body {
+	background-color: whitesmoke;
+  }
+  button {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: navy;
+    text-align: center;
+    background-color:white;
+    font-size: 30px;
+}
+.buttonDiv2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px
+}

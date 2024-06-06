@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="stylesBooking.css">
+  <title>Book Tickets</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+
+  <script>
+    function homePage(){
+        window.location.href = 'homePage.html'
+    }
+  </script>
+    
+  <script>
+    function dateButton1(){
+        window.location.href = 'dateButton1.html'
+    }
+  </script>
+
+  <script>
+    function dateButton2(){
+        window.location.href = 'dateButton2.html'
+    }
+  </script>
+
+  <script>
+    function dateButton3(){
+        window.location.href = 'dateButton3.html'
+    }
+  </script>
+</head>
+
+<body>
+  <div class="textDiv">
+    <h1>Book Tickets</h1>
+    <h2>A Grave in Paradise, 2023-24 | High School Production</h2>
+    <img src="/images/AGraveInParadise.jpg" alt="A Grave In Paradise Poster" width="500">
+  </div>
+<br>
+<br>
+<br>
+<div class="textDiv">
+  <h3>Dates:</h3>
+  <button onclick="dateButton1()">March 13th, 2024</button>
+    <h5>There are <b>0</b> seats available for this date.</h5>
+  <br><br><br>
+  <button onclick="dateButton2()">March 14th, 2024</button>
+    <h5>There are <b>3</b> seats available for this date.</h5>
+  <br><br><br>
+  <button onclick="dateButton3()">March 15th, 2024</button>
+  <h5>There are <b>9</b> seats available for this date.</h5>
+</div>
+
+
+
+<br><br><br>
+<button onclick="homePage()">Go to Home</button>
+</body>
+</html>
